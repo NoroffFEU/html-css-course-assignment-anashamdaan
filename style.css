@@ -1,4 +1,6 @@
 
+
+
 body, html {
     margin: 0;
     padding: 0;
@@ -18,7 +20,7 @@ header {
 }
 
 img {
-    width:17em;
+    width:12em;
  }
 
 nav ul {
@@ -54,7 +56,7 @@ nav a {
 
 }
 
-
+    
     
 
 .hero-image {
@@ -239,7 +241,7 @@ button {
     background-size: cover; 
     cursor: pointer; 
   }
-  
+
   
   .product-card1 {
     background-image: url(imags/man2.jpg);
@@ -270,6 +272,9 @@ button {
    background-image:url(imags/new_student.jpg);
    
 }
+
+
+
 .contact-us {
     border: 2px solid #ffffff;
     border-radius: 20px;
@@ -334,11 +339,7 @@ svg {
     }
 
 
-@media (max-width: 768px) {
-    .contact-us {
-        padding: 20px;
-    }
-}
+
 
 .site-footer {
     background: linear-gradient(110deg, #e01933 60%,#a30c11  60%);  
@@ -378,10 +379,67 @@ footer,p{
 
 
 
-
+  
 @media (max-width: 768px) {
-    .footer-middle {
+    header {
+        flex-direction: column;
+        height: auto; 
+        padding: 20px 10px; 
+    }
+  
+  
+
+
+   
+
+
+
+   
+   
+@media only screen and (max-width: 767px) {
+    .header, .store, .contact-us, .about-us, .site-footer {
         flex-direction: column;
     }
 
-   
+    .hero-image, .hero-image.left, .hero-image.center, .hero-image.right, .hero-image.one {
+        width: 80%;
+        height: 18em; 
+        left: 10%; 
+        top: 18em;
+        position: relative;
+        margin-bottom: 5em; 
+        
+    }
+    nav ul,  {
+        flex-direction: column; 
+        align-items: center; 
+    }
+  
+    nav li {
+        margin-right: 0; 
+        margin-bottom: 10px; /
+    }
+  
+    .icons {
+        order: -1; 
+        margin-bottom: 10px; 
+    }
+
+    .product-card, .product-card1, .product-card2, .product-card3 {
+        width: 90%; 
+        margin: 10px auto; 
+        position: relative;
+        bottom: -4em;
+    }
+
+    .form-group input[type="text"], .form-group input[type="email"], .form-group textarea {
+        width: 90%; 
+    }
+
+    h1, h3 {
+        font-size: 2rem; 
+        right: 0; 
+        bottom:7em;
+    }
+}
+
