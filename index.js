@@ -18,3 +18,13 @@ function addToCart() {
 
 
 addToCart();
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const hamburger = document.querySelector(".hamburger-menu");
+        const navUL = document.querySelector("nav ul");
+
+        hamburger.addEventListener("click", function() {
+            navUL.classList.toggle("show");
+        });
+    });
+</script>
