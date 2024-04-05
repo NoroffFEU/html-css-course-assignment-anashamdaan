@@ -378,22 +378,6 @@ footer,p{
 }
 
 
-
-  
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        height: auto; 
-        padding: 20px 10px; 
-    }
-  
-  
-
-
-   
-
-
-
    
    
 @media only screen and (max-width: 767px) {
