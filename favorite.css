@@ -235,9 +235,60 @@ footer,p{
 
 
 
-@media (max-width: 768px) {
-    .footer-middle {
-        flex-direction: column;
-    }
+
 
    
+    @media (max-width: 768px) {
+        header, .footer-middle {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .icons {
+            float: none;
+            position: relative;
+            left: 12em;
+            margin-top: 20px; 
+        }
+    
+        nav li {
+            display: block; 
+            margin: 10px auto; 
+        }
+    
+        .shopping-cart .items .product, .shopping-cart .summary {
+            width: 100%; 
+        }
+    
+        .footer-middle {
+            flex-direction: column;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        body, html {
+            font-size: 14px; 
+        }
+    
+        header {
+            padding: 5px; 
+        }
+    
+        nav li {
+            font-size: 1.2em; 
+            margin: 5px auto; 
+        }
+    
+        .icons, #user-actions a {
+            font-size: 1em; 
+        }
+    
+        .shopping-cart .items .product, .shopping-cart .summary {
+            padding: 10px; 
+        }
+    
+        .shopping-cart .items .product .info, .shopping-cart .summary {
+            text-align: center; 
+        }
+    }
+    
