@@ -183,6 +183,7 @@ footer,p{
     }
   
     nav li {
+        font-size: 1.8em;
         margin-right: 0; 
         margin-bottom: 10px; 
     }
