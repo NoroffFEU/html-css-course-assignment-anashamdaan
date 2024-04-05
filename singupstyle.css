@@ -227,8 +227,79 @@ footer,p{
 
 
 
-
+        
 @media (max-width: 768px) {
-    .footer-middle {
+    header {
         flex-direction: column;
+        height: auto; 
+        padding: 20px 10px; 
     }
+  
+    nav ul, .footer-middle {
+        flex-direction: column; 
+        align-items: center; 
+    }
+  
+    nav li {
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    }
+  
+    .icons {
+        order: -1; 
+        margin-bottom: 10px; 
+    }
+    .hero-section, .hero-content, .hero-image.left, .hero-image.center, .hero-image.right, .hero-image.one {
+        width: 100%; 
+        position: relative; 
+        top: 10em;
+        left: auto;
+        transform: none;
+    }
+
+    .login-container {
+        flex-direction: column;
+        bottom: 130em; 
+        height: auto; 
+        padding: 20px 0; 
+    }
+
+    .login-form {
+        margin: 0 20px; 
+    }
+}
+
+@media (max-width: 480px) {
+    body, html {
+        font-size: 14px; 
+    }
+
+    header, .footer-top, .footer-middle, .site-footer {
+        padding: 0 10px; 
+    }
+
+    nav li {
+        font-size: 1.2em; /
+    }
+
+    .icons, #user-actions a {
+        font-size: 1em; 
+    }
+
+    .hero-image, .hero-image.left, .hero-image.center, .hero-image.right, .hero-image.one {
+        height: auto; 
+    }
+
+    .login-form, .login-container {
+        padding: 1em; 
+        width: auto; 
+    }
+
+    .input-group input, button {
+        padding: 12px; 
+    }
+
+    .footer-middle {
+        flex-direction: column; 
+    }
+}
