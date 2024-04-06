@@ -239,6 +239,7 @@ footer,p{
     nav li {
         margin-right: 0; 
         margin-bottom: 10px; 
+        font-size: 1.5em; 
     }
   
     .icons {
@@ -291,7 +292,11 @@ footer,p{
     }
 
     .login-form-container {
-        width: 90%; 
+        position: relative;
+        bottom: 130em;
+        padding: 1em; 
+        width: auto; 
+        
     }
 
     .form-group input[type="text"], .form-group input[type="password"], #login-form button {
