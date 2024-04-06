@@ -246,7 +246,8 @@ footer,p{
 
   header, nav li, .footer-nav a {
       padding: 5px; 
-      font-size: 1em; 
+      
+      font-size: 1.5em; 
   }
 
   .product-info h2, .price {
