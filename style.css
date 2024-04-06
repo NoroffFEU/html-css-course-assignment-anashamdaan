@@ -378,12 +378,22 @@ footer,p{
 }
 
 
+
+  
 @media (max-width: 768px) {
     header {
         flex-direction: column;
         height: auto; 
         padding: 20px 10px; 
     }
+  
+  
+
+
+   
+
+
+
    
    
 @media only screen and (max-width: 767px) {
@@ -401,12 +411,12 @@ footer,p{
         
     }
     nav ul,  {
-        font-size: 1.5em;
         flex-direction: column; 
         align-items: center; 
     }
   
     nav li {
+        font-size: 1.5em;
         margin-right: 0; 
         margin-bottom: 10px; /
     }
@@ -428,9 +438,23 @@ footer,p{
     }
 
     h1, h3 {
-        font-size: 2rem; 
-        right: 0; 
+        font-size: 2.2rem; 
+        right: 4em; 
         bottom:7em;
+        color: #ffffff;
+        
     }
+
+.hero-content {
+    font-size: 2rem; 
+   position: relative;
+   left:6em;
+    bottom:31em;
 }
 
+.a,button{
+    font-size: 2rem; 
+   position: relative;
+   right: 2.2em;
+    bottom:3em;
+}
