@@ -198,6 +198,7 @@ footer,p{
   }
 
   nav li {
+    font-size: 1.5em;
       margin-right: 0; 
       margin-bottom: 10px; 
   }
@@ -248,7 +249,7 @@ footer,p{
 
   header, nav li, .footer-nav a {
       padding: 5px; 
-      font-size: 1em; 
+      font-size: 1.5em; 
   }
 
   .product-info h2, .price {
